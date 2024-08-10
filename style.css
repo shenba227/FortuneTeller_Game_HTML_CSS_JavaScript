@@ -1,0 +1,90 @@
+
+* {
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color:pink;
+}
+
+body:hover{
+background-color: aqua;
+}
+body:active{
+    background-color: violet;
+}
+h1 {
+    color: #32ca44;
+    margin-bottom: 20px;
+   
+    text-shadow: 1px 1px 2px #000, 0 0 25px #f00, 0 0 5px #f00;
+
+}
+h1:hover{
+    color: #e09719;
+    
+}
+
+h2 {
+    color: #2a35cc;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+h2:hover{
+   color: rgb(168, 17, 80);
+}
+
+h4 {
+    margin: 10px 0;
+    color: #bc1725;
+    
+  
+        text-shadow: 1px 1px 2px #000, 0 0 25px #f00, 0 0 5px #f00;
+   
+    }
+
+    
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 300px;
+  cursor: pointer;
+  
+}
+input:hover{
+    background-color:papayawhip;
+   
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(191, 46, 46, 0.3);
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #df08d1;
+}
+
+#Fortune {
+    font-size: 1.2em;
+    color: rgb(5, 11, 83);
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(229, 219, 30, 0.5); 
+
+    
+}
